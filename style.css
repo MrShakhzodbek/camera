@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ======Header_Start====== */
+.top{
+    width: 1115px;
+    margin: auto;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top .first{
+    height: 240px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top .first .logo{
+    padding-bottom: 60px;
+}
+.top .first .menu ul {
+    display: flex;
+    align-items: center;
+}
+.top .first .menu ul li a{
+    display: block;
+    color: #bab9b9;
+    font-style: 18px;
+    font-weight: 400;
+    padding: 0 22px;
+    transition: 500ms;
+}
+.top .first .menu ul li a:hover{
+    color: #4581b7;
+}
+.top .second{
+    height: 250px;
+}
+
+
+/* =======Main_Start====== */
+section .inform{
+    display: flex;
+    justify-content: space-between;
+    width:1110PX;
+    margin: auto; 
+    margin-top: 13%; 
+    margin-bottom: 30px;
+} 
+section .inform .left{
+    width: 730px;
+    background-color: #f0f0f0;
+}
+.inform .right{
+    width: 350px;
+    background-color: #f0f0f0;
+}
+.inform .right .bir{
+    padding-left: 40px;
+    line-height: 27px;
+    color: #7f7f7f;
+    font-style: 16px;
+    font-weight: 400;
+}
+.inform .right .ikki{
+    line-height: 27px;
+    color: #7f7f7f;
+    font-style: 16px;
+    font-weight: 400;
+    padding: 50px 0 50px 40px;
+}
+.inform .right a{
+    line-height: 27px;
+    color: #7f7f7f;
+    font-style: 16px;
+    font-weight: 400;
+    padding-left: 40px;
+}
+.inform .left h2,
+.inform .right h2{
+    text-indent: 40px;
+    color: #4581b7;
+    font-style: 20px;
+    font-weight: 700;
+    padding: 50px 0 30px;
+}
+.inform .left p{
+    padding-bottom: 65px;
+    line-height: 27px;
+    padding-left: 40px;
+    color: #7f7f7f;
+    font-style: 16px;
+    font-weight: 400;
+}
+
+
+
+
+/* ======Footer_Start====== */
+
+footer{
+    background-color: #f0f0f0;
+    width: 1110px;
+    margin: auto;
+}
+
+.footer_menu {
+    width: 1030px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.footer_menu .footer_logo a img{
+    width: 254px;
+    height: 120px;
+}
+.footer_cantact{
+    text-align: right;
+}
+.footer_menu .footer_cantact p{
+    color: #808080;
+    font-style: 16px;
+    font-weight: 400;
+    padding: 40px 0 10px 0;
+}
+.footer_menu .footer_cantact .phone{
+    font-size: 25px;
+    font-weight: 700;
+    color: #808080;
+    padding-top: 0;
+}
